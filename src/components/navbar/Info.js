@@ -6,7 +6,7 @@ import enFlag from "../../assets/ukFlag.png";
 import { useTranslation } from "react-i18next";
 
 const Info = ({ backgroundColor }) => {
-const {t,i18n} = useTranslation();
+const {i18n} = useTranslation();
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
   };
@@ -14,7 +14,7 @@ const {t,i18n} = useTranslation();
     <div
       className={`hidden md:absolute md:z-50 md:flex md:opacity-50 md:border-b-1 md:text-black md:text-sm md:top-0 md:left-0 md:py-6 md:w-full ${backgroundColor}`}
     >
-      <div className="md:pl-40 flex">
+      <div className="md:left-6 lg:pl-40 flex">
         <h1 className="flex z-30">
           <CiMail className="mr-2" size={20} fill="black" />
           bilgi@infebilisim.com
