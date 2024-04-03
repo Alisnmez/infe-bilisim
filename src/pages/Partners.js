@@ -1,12 +1,18 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import Info from "../components/navbar/Info";
-import photo1 from "../assets/koc-logo.png";
-import photo2 from "../assets/infebilisim_logo.png";
-import photo3 from "../assets/infebilisim_logo.png";
-import photo4 from "../assets/infebilisim_logo.png";
-import photo5 from "../assets/infebilisim_logo.png";
-import photo6 from "../assets/infebilisim_logo.png";
+import photo1 from "../assets/aruba.jpeg";
+import photo2 from "../assets/dell.jpeg";
+import photo3 from "../assets/fortinet.jpeg";
+import photo4 from "../assets/hewlet.jpeg";
+import photo5 from "../assets/lenovo_l.jpeg";
+import photo6 from "../assets/microsoft.jpeg";
+import photo7 from "../assets/paloalto.jpeg";
+import photo8 from "../assets/sophos.jpeg";
+import photo9 from "../assets/veeam.jpeg";
+import photo10 from "../assets/wmware.jpeg";
+import photo11 from "../assets/ıbm.jpeg";
+import photo12 from "../assets/xcitium.jpeg";
 import BGImage from "../assets/bg-1.png";
 import Head from "..//assets/head.png"
 import { useTranslation } from "react-i18next";
@@ -30,13 +36,36 @@ const Partners = () => {
     },
     {
       image: photo5,
-      name: "Partner 3",
+      name: "Partner 5",
     },
     {
       image: photo6,
-      name: "Partner 4",
+      name: "Partner 6",
     },
-    
+    {
+      image: photo7,
+      name: "Partner 7",
+    },
+    {
+      image: photo8,
+      name: "Partner 8",
+    },
+    {
+      image: photo9,
+      name: "Partner 9",
+    },
+    {
+      image: photo10,
+      name: "Partner 10",
+    },
+    {
+      image: photo11,
+      name: "Partner 11",
+    },
+    {
+      image: photo12,
+      name: "Partner 12",
+    },
   ];
 
   const { t } = useTranslation();

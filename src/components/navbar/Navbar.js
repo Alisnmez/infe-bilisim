@@ -3,6 +3,7 @@ import Dropdown from "./Dropdown";
 import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import infeLogo from "../../assets/infeL.png";
 const Navbar = ({ backgroundColor }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,13 +44,10 @@ const Navbar = ({ backgroundColor }) => {
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between p-2">
           <a href="/" className="flex items-center lg:pl-32">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-14 z-10"
+              src={infeLogo}
+              className="h-24 z-10"
               alt="Flowbite Logo"
             />
-            <span className="self-center z-10 font-semibold whitespace-nowrap dark:text-white">
-              İnfe Bilişim
-            </span>
           </a>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
             <button

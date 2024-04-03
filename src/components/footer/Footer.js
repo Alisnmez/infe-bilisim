@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import İnfeBilisimLogo from "../../assets/infebilisim_logo.png";
+import İnfeBilisimLogo from "../../assets/infeL.png";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
@@ -11,7 +11,7 @@ const Footer = () => {
       <Link to="/">
         <img
           src={İnfeBilisimLogo}
-          className="h-60 w-auto transform scale-300 absolute left-6 pt-8"
+          className="h-40 w-auto transform scale-300 absolute left-6 pt-8"
           alt="İnfe Bilişim Logo"
         />
       </Link>
