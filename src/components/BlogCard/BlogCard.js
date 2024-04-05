@@ -9,7 +9,7 @@ const BlogCard = () => {
   return (
     <div className="relative">
       <video
-        className="z-0 absolute w-full h-full object-cover"
+        className="z-0 absolute w-full h-full object-cover select-none"
         src={BGVideo}
         autoPlay
         loop

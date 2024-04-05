@@ -10,7 +10,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="absolute inset-0 w-full h-full top-0 object-cover pointer-events-none"
+          className="absolute inset-0 w-full h-full top-0 object-cover pointer-events-none select-none"
           style={{ zIndex: -1 }}
         ></video>
         <Header />
