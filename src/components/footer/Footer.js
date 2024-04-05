@@ -8,15 +8,16 @@ const Footer = () => {
   const { t } = useTranslation();
   return (
     <div class="dark:bg-black select-none">
-      <Link to="/">
+      
+      <div class=" flex mx-auto w-full max-w-screen-xl justify-center items-center">
+        <div class="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+        <Link to="/">
         <img
           src={İnfeBilisimLogo}
-          className="h-40 w-auto transform scale-300 absolute left-6 pt-8"
+          className="h-40 w-auto transform scale-300 left-6 pt-8"
           alt="İnfe Bilişim Logo"
         />
       </Link>
-      <div class="mx-auto w-full max-w-screen-xl pl-60">
-        <div class="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 md:grid-cols-3">
           <div>
             <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
               {t("footer.header1")}
