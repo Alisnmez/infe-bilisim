@@ -15,7 +15,7 @@ const BlogCard = () => {
         loop
         muted
       ></video>
-      <div className="px-12 py-32">
+      <div className="z-10 px-12 py-32">
         <div className="flex flex-col items-center w-full text-center py-4">
           <h1 className="text-xl pb-2 font-bold text-white z-30 select-none">
             {t("homePage.blogCard.header")}

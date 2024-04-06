@@ -4,7 +4,7 @@ import Header from "../header/Header";
 const HeroSection = () => {
   return (
     <div className="inset-0 flex items-center justify-center">
-      <div className="w-full h-[80%]">
+      <div className="w-full max-w-full md:max-w-screen-lg h-[80%]">
         <video
           src={BGVideo}
           autoPlay
